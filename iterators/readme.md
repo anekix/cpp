@@ -8,6 +8,11 @@ for( std::vector<int>::iterator it = integers.begin() ; it != integers.end() ; +
 ```cpp
 for( std::vector<int>::const_iterator it = integers.begin() ; it != integers.end() ; ++it )
        { cout << *it << endl; }
-	return 0;
 }
+```
+Reverse Iterator - accessing containers in reversed manner
+```cpp
+for (vector<int>::reverse_iterator i = my_vector.rbegin(); i != my_vector.rend(); ++i ) { 
+       cout << *it << endl;
+} 
 ```
